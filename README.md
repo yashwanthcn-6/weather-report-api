@@ -1,2 +1,2 @@
 # weather-report-api
-trying somthing stuff by bindhing my first api with project
+trying somthing by bindhing my first api 
