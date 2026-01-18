@@ -1,0 +1,69 @@
+body {
+    font-family: 'Rockwell', serif;
+    background-image: url('natu.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+
+.time-display {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    font-size: 22px;
+    color: rgb(178, 169, 169);
+    text-align: left;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px 15px;
+    border-radius: 8px;
+}
+.weather-container {
+    background: rgba(98, 73, 73, 0.8);
+    padding: 35px;
+    border-radius: 20px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+input {
+    width: 90%;
+    padding: 8px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    background: #007BFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #5e6a76;
+}
+
+.weather-result {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.weather-result p {
+    transition: all 0.5s ease;
+    opacity: 0;
+    transform: translateY(20px);
+}
