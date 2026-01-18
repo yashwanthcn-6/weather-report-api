@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Report App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <p id="time" class="time-display"></p>
+
+    <div class="weather-container">
+        <h1>Weather Report</h1>
+
+        <input type="text" id="locationInput" placeholder="Enter city name">
+        <button onclick="getWeather()">Get Weather</button>
+
+        <div id="loading" style="display:none; text-align: center; margin: 10px 0;">Loading weather data... ⏳</div>
+
+        <div class="weather-result">
+            <p id="place"></p>
+            <p id="temp"></p>
+            <p id="condition"></p>
+            <p id="airQuality"></p>
+        </div>
+
+        <button id="backBtn" style="display:none; margin-top: 20px;" onclick="goBack()">Back</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
