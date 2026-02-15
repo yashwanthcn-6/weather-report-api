@@ -2,7 +2,7 @@ function getWeather() {
     const location = document.getElementById("locationInput").value;
 
     if (location === "") {
-        alert("Please enter a location");
+        alert("Please enter a location")
         return;
     }
 
