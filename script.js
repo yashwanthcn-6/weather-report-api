@@ -6,7 +6,7 @@ function getWeather() {
         return;
     }
 
-    // Show loading and disable inputs
+   
     document.getElementById("loading").style.display = "block";
     document.getElementById("locationInput").disabled = true;
     document.querySelector("button").disabled = true;
